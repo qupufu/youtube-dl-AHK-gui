@@ -55,6 +55,7 @@ CreateGUI:
 
 	;Set up config file
 	configPath = %Appdata%\youtube-dl\config.txt
+	FileCreateDir, %Appdata%\youtube-dl		;create config dir if it doesn't already exist
 	FileDelete, %configPath%
 	FileAppend, #This config file was created with AutoHotkey on %A_MM%/%A_DD%/%A_YYYY% `n`n, %configPath%
 	
