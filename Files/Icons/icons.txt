@@ -1,0 +1,1 @@
+move the icon that you want to the parent folder and rename it to "yt-dl.ico"
