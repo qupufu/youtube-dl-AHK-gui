@@ -1,5 +1,5 @@
 # youtube-dl-AHK-gui
-A simple gui for youtube-dl made in AutoHotkey. Press Alt+x to open the gui
+A simple gui for youtube-dl made in AutoHotkey. Press Alt+x to open the gui. Please note that this is probably the worst youtube-dl gui powered by AutoHotkey. This is mostly made for fun and practice.
 
 # Gui
 <img src="https://github.com/uShldGetCeleste/youtube-dl-AHK-gui/blob/main/Files/gui example.png?raw=true">
