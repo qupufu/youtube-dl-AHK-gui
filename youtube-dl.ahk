@@ -8,7 +8,6 @@ CreateGUI:
 {
 	;set font size
 	Gui, Font, s9
-
 	;format
 	Gui, Add, Tab3, ggDLtype vDLtype w300, Video|Audio
 		Gui, Tab, 1	;video
@@ -73,7 +72,7 @@ CreateGUI:
 	Else
 	{
 	;Change config file
-	FileAppend, -x --audio_format %FormatAudio%`n, %configPath%
+	FileAppend, -x --audio-format %FormatAudio%`n, %configPath%
 	FileFormat = %FormatAudio%
 	if EmbedArt = 1
 	{
